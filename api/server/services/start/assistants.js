@@ -41,6 +41,7 @@ function assistantsConfigSetup(config, prevConfig = {}) {
     supportedIds: parsedConfig.supportedIds,
     capabilities: parsedConfig.capabilities,
     excludedIds: parsedConfig.excludedIds,
+    userOnly: parsedConfig.userOnly,
     timeoutMs: parsedConfig.timeoutMs,
   };
 }
